@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website Design</title>
+
+    <!-- Style Css Link -->
+    <link rel="stylesheet" href="Guest.css">
+    <!-- Style Css Link -->
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Font Awesome Cdn -->
+
+    <!-- Google Font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Google Font links -->
+    <style>
+        .header{
+            position: fixed;
+            
+            width: 100%;
+            margin: -19px 0px;
+            padding: 0px;
+            color:gray;
+           gap: 30%;
+           z-index: 1;
+           font-weight: bold;
+           padding-right: 50px;
+           
+       
+          }
+    
+    .p1{
+        margin: 0px;
+        width: 20%;
+        word-spacing: 5px;
+        float: left;
+        margin-left: 20px;
+        padding: 5px;
+    } 
+          .top a {
+         float: left;
+            color:gray;
+            
+            justify-content: center;
+            padding: 14px 23px;
+            text-decoration: none;
+           font-size: 20px;
+            margin-top: 10px;
+            padding: 30px;
+        
+          }
+        
+         /* <!-- .top a.active {
+            color: black;
+          } -->*/
+    </style>
+
+</head>
+<body>
+    <div class="header" style="background-color:#1c0a51;"> 
+        <div class="top" >
+            <div class="p1">
+                <img src="logo.png">
+            </div>
+            <a href="#HOME" >Home</a>
+            <a href="#Servies">Serives</a>
+            <a href="#About">About</a>
+            <a href="#Packages">Packages</a>
+            <a href="#Country-info">Country-info</a>
+            <a href="Book">Book</a>
+            <a href="#Contact">Contact</a>
+            <a href="#Reviews">Reviews</a>
+            <a href="#Guest">Guest</a>
+        </div>
+    </div>
+
+    
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+        <div class="main-text">
+            <h3>Travel The World & Explore <br>The New Destination </h3>
+        
+        <p>Welcome to our travel Info. Explore new destinations and plan<br> your next adventure with us!</p>
+        <a href="#packages"><button id="home-btn">Packages</button></a>
+    </div>
+    </section>
+    <!-- Home Section End -->
+
+
+    <!-- Services Section Start -->
+    <section class="services" id="services">
+        <div class="heading">
+            <h3>Services</h3>
+        </div>
+            <div class="card-content">
+
+                <div class="row">
+                    <i class="fas fa-globe-asia"></i>
+                    <div class="card-body">
+                        <h3>Around The World</h3>
+                        <p>Discover our global travel packages and explore the world's most fascinating destinations.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <i class="fas fa-plane"></i>
+                    <div class="card-body">
+                        <h3>Fastet Travel</h3>
+                        <p>Experience the fastest and most convenient travel options with our exclusive travel services.</p>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <i class="fas fa-hotel"></i>
+                    <div class="card-body">
+                        <h3>Affordable Hotels</h3>
+                        <p>Find the best deals on comfortable and affordable accommodations for your trip.</p>
+
+                    </div>
+                </div>
+                </div>
+                <div class="row" id="ss">
+                    <i class="fas fa-bullhorn"></i>
+                    <div class="card-body">
+                        <h3>Safty Guide</h3>
+                        <p>Stay safe during your travels with our comprehensive safety tips and guidelines.</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+       
+    </section>
+    <!-- Services Section End -->
+
+
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about-img.png" alt="">
+        </div>
+        <div class="about-info">
+            <h6>About Us</h6>
+           
+            <p>Learn about our travel information services and how we can help you plan your dream vacation.</p>
+
+            <button class="about-btn">Read More...</button>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+
+
+
+    <!-- Gallary Section Start -->
+    <section class="gallary" id="gallary">
+        <div class="heading">
+            <h3>Our Gallary ↓</h3>
+        </div>
+
+        <div class="gallary-card">
+            <div class="row">
+                <img src="p1.jpg" alt="">
+            </div>
+            <div class="row">
+                <img src="p2.png" alt="">
+            </div>
+            <div class="row">
+                <img src="p3.png" alt="">
+            </div>
+            <div class="row">
+                <img src="p4.png" alt="">
+            </div>
+            </div>
+            <div class="row1">
+                <img src="p5.png" alt="">
+            </div>
+           
+
+        </div>
+    </section>
+    <!-- Gallary Section End -->
+
+
+
+
+
+    <!-- Packages Section Start -->
+    <section class="packages" id="packages">
+        <div class="main-txt">
+            <h3>Packages</h3>
+        </div>
+
+        <div class="card-content">
+            <div class="row">
+                <img src="united state.png" alt="">
+                <div class="card-body">
+                    <h3>United States</h3>
+                    <p>Explore the diverse landscapes and vibrant cities of the United States.  The breathtaking beauty of the Grand Canyon, there's something for everyone in the USA.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <h5>Price $999</h5>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="jordan.png" alt="">
+                <div class="card-body">
+                    <h3>Jordan</h3>
+                    <p>Explore the ancient wonders of Jordan. Visit the rock-cut city of Petra, float in the Dead Sea, explore the desert landscapes of Wadi Rum, Ajloun Castle, Karak Castle and Dana Nature Reserve.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <h5>Price $999</h5>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="china.png" alt="">
+                <div class="card-body">
+                    <h3>China</h3>
+                    <p>Experience the rich history and culture of China. Visit iconic landmarks such as the Great Wall and the Forbidden City, Imperial Palace, The Summer Palace, and sample delicious Chinese cuisine.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <h5>Price $999</h5>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="Mexico.png" alt="">
+                <div class="card-body">
+                    <h3>Mexico</h3>
+                    <p>Experience the vibrant culture and rich history of Mexico. Visit ancient Mayan ruins, relax on the beautiful beaches of Cancun, and sample delicious Mexican cuisine Mexico.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <h5>Price $999</h5>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="france.png" alt="">
+                <div class="card-body">
+                    <h3>France</h3>
+                    <p>Experience the romance and charm of France. Explore the iconic landmarks of Paris, such as the Eiffel Tower and the Louvre, and indulge in French cuisine and wine.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <h5>Price $999</h5>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="Greece.png" alt="">
+                <div class="card-body">
+                    <h3>Greece</h3>
+                    <p>Immerse yourself in the ancient history and stunning landscapes of Greece. Explore the ruins of Athens and indulge in delicious Mediterranean cuisine.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <h5>Price $999</h5>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="Spain.png" alt="">
+                <div class="card-body">
+                    <h3>Spain</h3>
+                    <p>Discover the vibrant culture and stunning architecture of Spain. Visit historic cities such as Barcelona and Madrid, beaches, and enjoy delicious Spanish tapas.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <h5>Price $999</h5>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="Turkey.png" alt="">
+                <div class="card-body">
+                <h3>Turkey</h3>
+                <p>Experience the vibrant culture and rich history of Turkey.It is a dazzling vacation destination for tourists who love to witness ancient monuments and empires. </p>
+                <div class="rating">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h5>Price $999</h5>
+                <button>Book Now</button>
+            </div>
+        </div>
+    </div>
+
+    </section>
+    <!-- Packages Section End -->
+
+
+
+    <!-- Book Section Start -->
+    <section class="book" id="book">
+        <div class="book-img">
+            <img src="book-img.png" alt="">
+        </div>
+        <div class="book-form">
+            <h5>BOOK YOUR DESTINATION</h5>
+            <form action="#">
+               
+                <input type="Name" placeholder="Enter Your Name" required>
+                <input type="Mobile Number" placeholder="Enter Your Phone Number" required>
+                <input type="Where" placeholder="Where" required>
+                <input type="Members" placeholder="How Many" required>
+                <input type="date" placeholder="Arrivals" required>
+                <input type="date" placeholder="Leaving" required>
+                <textarea name="" id="" cols="5" rows="5" placeholder="Enter Your Name & Details"></textarea>
+                <input type="submit" value="Book Now" class="submit" required>
+            </form>
+        </div>
+    </section>
+    <!-- Book Section End -->
+
+
+
+
+    <!-- Section Reviews Start -->
+    <section class="reviews" id="reviews">
+        <div class="main">
+            <h3>What Custommers Say</h3>
+        </div>
+        <div class="card-content">
+            <div class="row">
+                <h5><img src="pic-1.png" alt="">Venkatesh</h5>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Great service! I had an amazing experience traveling with Travel Info. Highly recommended!</p>
+
+            </div>
+            <div class="row">
+                <h5><img src="pic-2.png" alt="">Harini</h5>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Travel Info made my trip hassle-free! From booking to accommodations, everything was well-organized.</p>
+            </div>
+            <div class="row">
+                <h5><img src="pic-3.png" alt="">Anvesh</h5>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Good service and friendly staff. I had a memorable vacation thanks to Travel Info's recommendations.</p>
+
+            </div>
+        </div>
+    </section>
+    <!-- Section Reviews End -->
+
+
+
+    <!-- Contact Section Start -->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Get In <span>Touch</span></h2>
+            <p>Contact us for any inquiries or assistance.</p>
+            <p> We're here to help you plan your perfect vacation!</p>
+            <br>
+          
+            <div class="list">
+                <li><a href="#">+91 6300000000</a></li><br>
+                <li><a href="#">example@gmail.com</a></li><br>
+                <li><a href="#">Hyderbad, india</a></li>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="#">
+                <input type="text" placeholder="Name" required> <br><br>
+                <input type="number" placeholder="Phone" required><br><br>
+                <input type="email" placeholder="Email" required> <br><br>
+                <textarea name="" id="" cols="35" rows="10" placeholder="Message" required></textarea><br><br>
+                <input type="submit" value="Send Me" class="submit" required>
+            </form>
+        </div>
+
+    </section>
+    <!-- Contact Section End -->
+
+
+
+
+
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="row" id="row1">
+                <a href="#" id="footer-logo">Travel Info</a>
+                <p>Welcome to Travel Info, your go-to source for all your travel needs. Whether you're looking for exciting vacation packages, reliable travel services, or helpful travel tips, we've got you covered. Plan your next adventure with us!</p>
+                <div class="socail-links">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </div>
+            </div>
+            <div class="row" id="row2">
+                <h3>UseFull Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Book</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Info</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="row" id="row3">
+                <h3>Other Links</h3>
+                <ul>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">App Design</a></li>
+                    <li><a href="#">Game Design</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="row" id="row4">
+                <h3>Download App</h3>
+                <img src="app.png" alt="">
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript -->
+    <script src="js.js"></script>
+</body>
+</html>
